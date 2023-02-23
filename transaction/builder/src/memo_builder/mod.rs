@@ -11,6 +11,7 @@ use mc_transaction_core::{Amount, MemoContext, MemoPayload, NewMemoError};
 use mc_transaction_extra::UnusedMemo;
 
 mod burn_redemption_memo_builder;
+mod defragmentation_memo_builder;
 mod gift_code_cancellation_memo_builder;
 mod gift_code_funding_memo_builder;
 mod gift_code_sender_memo_builder;
